@@ -16,11 +16,11 @@
     </head>
 
     <body>
-        <div class="experiment1_text" align="center">
+        <div class="experiment1_text" align="center" color="green">
             This content will be replaced by ABalytics
         </div>
 
-        <form class="experiment1_button" align="center">
+        <form class="experiment1_button" align="center" color="orange">
             This will be replaced too, with a button for the form
         </form>
     </body>
@@ -38,7 +38,7 @@
                  name: 'variant2',
                  'experiment1_text': 'Click here, but only if you like Carrots',
                  'experiment1_button':
-                       '<input type="button" value="Click me, OR ELSE" onclick="ga(\'send\', \'event\', \'buttonclick\', \'stern\'); alert(\'Fun fact: my dogs think carrots are a treat!\');">'
+                       '<input type="button" value="Click me!" onclick="ga(\'send\', \'event\', \'buttonclick\', \'stern\'); alert(\'Fun fact: my dogs think carrots are a treat!\');">'
              }
          ]
      });
